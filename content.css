@@ -1,0 +1,196 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #FF6B6B, #6B96FF);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Apply some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the main container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the navigation links */
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #333;
+}
+
+/* Style the sections */
+.column {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the images within the section */
+.image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+/* Style the footer */
+footer {
+    background: linear-gradient(90deg, #6B96FF, #FF6B6B);
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+}
+
+/* Style links in the footer */
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style table headers */
+th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style table cells */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Style the images in the image container */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.image-container a {
+    text-decoration: none;
+}
+
+/* Additional styling for specific sections */
+#hobbies h2 {
+    color: #009688;
+}
+
+#subjects h2 {
+    color: #E74C3C;
+}
+
+#new-learnings h2 {
+    color: #3498DB;
+}
+
+#code-dev-practices h2 {
+    color: #F1C40F;
+}
+
+/* for the content2.html */
+
+article {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+article h2 {
+    font-size: 20px;
+    color: #E74C3C; /* Adjust the color as needed */
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+article ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+article li {
+    font-size: 16px;
+}
+
+footer {
+    background: linear-gradient(90deg, #6B96FF, #FF6B6B);
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* media queries to make both content pages responsive */
+
+@media (max-width: 480px) {
+    header {
+        padding: 5px; /* Reduce header padding for smaller screens */
+    }
+
+    nav a {
+        font-size: 14px; /* Decrease the font size of navigation links */
+    }
+
+    .column {
+        padding: 10px; /* Reduce section padding for smaller screens */
+    }
+
+    .image {
+        max-width: 100%; /* Make images responsive within their containers */
+        height: auto;
+    }
+
+    article h1 {
+        font-size: 20px; /* Decrease the font size for article headings */
+    }
+
+    article h2 {
+        font-size: 18px; /* Decrease the font size for article subheadings */
+    }
+
+    article p {
+        font-size: 14px; /* Decrease the font size for article paragraphs */
+    }
+
+    article ul {
+        margin-left: 10px; /* Adjust the margin for unordered lists */
+    }
+
+    article li {
+        font-size: 14px; /* Decrease the font size for list items */
+    }
+}

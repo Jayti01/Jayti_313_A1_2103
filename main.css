@@ -1,0 +1,100 @@
+/* Apply the gradient to the header */
+header {
+    background: linear-gradient(90deg, #FF6B6B, #6B96FF);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the column sections in the main */
+main{
+    box-sizing: content-box;
+}
+
+/* Style the navigation links */
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+/* Apply a hover effect to the navigation links */
+nav a:hover {
+    color: #af31d9; /* Changed hover color to match your request */
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+/* Style the table header cells */
+th {
+    background-color: #FF6B6B;
+    color: #fff;
+    text-align: center;
+}
+
+/* Style the table data cells */
+td {
+    background-color: #6B96FF;
+    color: #fff; /* Added text color for better contrast */
+    text-align: center;
+}
+
+/* Style the ordered list */
+ol {
+    list-style-type: decimal;
+    text-align: left; /* Align the ordered list to the left as requested */
+}
+
+/* Style the footer */
+footer {
+    background: linear-gradient(90deg, #6B96FF, #FF6B6B);
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+}
+
+/* Style the main content of body */
+.column1 {
+    float: left;
+    width: 60%;
+}
+
+.column2{
+    float: left;
+    width: 40%;
+}
+  
+  /* Clear floats after the columns */
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* media query to be responsive for the index page */
+  @media (max-width: 480px) {
+    header {
+        padding: 5px; /* Reduce header padding for smaller screens */
+    }
+
+    nav a {
+        font-size: 14px; /* Decrease the font size of navigation links */
+        margin: 0 5px; /* Reduce the margin for navigation links */
+    }
+    
+    .column1 {
+        width: 100%; /* Make the first column take full width on small screens */
+    }
+    
+    .column2 {
+        width: 100%; /* Make the second column take full width on small screens */
+    }
+}
